@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:3000
+### Listar todas las peliculas
+GET {{baseUrl}}/api/peliculas
+### Listar todas las salas
+GET {{baseUrl}}/api/salas
+### Total de Butacas
+GET {{baseUrl}}/api/salas/total
